@@ -1,0 +1,16 @@
+.header {
+	position: relative;
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	height: 86px;
+}
+
+.header h1 {
+	color: black;
+	font-size: 18px;
+	align-items: center;
+	font-weight: 700;
+}

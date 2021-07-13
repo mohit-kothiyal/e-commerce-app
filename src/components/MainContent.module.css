@@ -1,0 +1,22 @@
+.section {
+	display: inline-block;
+	margin-left: 32px;
+	padding-right: 32px;
+	width: calc(100% - 500px - 0.01px);
+}
+.products-listing {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	overflow: hidden;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+.products-listing > li {
+	width: 332px;
+	padding-left: 5rem;
+	margin-top: 5rem;
+	position: relative;
+}

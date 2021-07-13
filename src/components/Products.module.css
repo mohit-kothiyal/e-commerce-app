@@ -1,0 +1,58 @@
+.image-container {
+	position: relative;
+}
+
+.image-container > a > img {
+	background: #f5f5f5;
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+.image-container:hover > .overlay {
+	opacity: 1;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: #000000c7;
+	cursor: pointer;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	cursor: pointer;
+}
+.item-details > p {
+	display: inline;
+	margin-left: 1rem;
+}
+.item-details > span {
+	display: block;
+}
+.item-heading > a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+.item-price {
+	color: #5a112b;
+	font-weight: 700;
+}

@@ -1,0 +1,19 @@
+.page-sidebar {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	float: left;
+	width: 200px;
+	min-height: 100vh;
+	margin-top: 5rem;
+}
+.page-sidebar ul {
+	padding: 0;
+}
+.list-group-items {
+	padding-left: 0;
+	list-style-type: none;
+}
+.list-group-items > div:hover {
+	font-weight: 700;
+}
